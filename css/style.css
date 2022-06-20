@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Fjalla One', sans-serif;
+}
+header{
+    display: flex;
+    padding: 1% 2%;
+    border-bottom: 2px solid #017143;
+}
+header div.logo {
+    padding-left: 5%;
+}
+header div img{
+    width: 10%;
+    height: auto;
+}
+header div.menu{
+    width: 50%;
+    right: 0;
+    padding-top: 1%;
+}
+header div.menu a{
+    padding: 0 4%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #017143;
+}
+header div.menu a:hover{
+    padding: 0 4%;
+    font-size: 20px;
+    text-decoration: none;
+    color: #11c077;
+    font-weight: bold;
+}
+section.central{
+    padding: 5% 40% 5% 4%;
+}
+section.central h1{
+    font-size: 50px;
+    transition: all 0.7s ease;
+    color: #017143;
+}
+section.central h1:hover{
+    font-size: 50px;
+    letter-spacing: 5px;
+    transition: all 0.5s ease;
+    color: #017143;
+}
+section.central p{
+    padding-top: 4%;
+    text-align: justify;
+    text-indent: 50px;
+    font-family: 'Abel', sans-serif;
+    color: rgb(59, 59, 59);
+}
+section.side div.circulo{
+    width: 65%;
+    height: 120%;
+    border-radius: 50%;
+    position: absolute;
+    right: -25%;
+    bottom: -50%;
+    background-color: #017143;
+}
+section.side div.circulo img.ball{
+    width: 5%;
+    margin-left: -36%;
+}
+section.side div.circulo img.balls{
+    width: 9%;
+    margin-left: 20%;
+}
+section.side div.circulo img.osso{
+    width: 15%;
+}
